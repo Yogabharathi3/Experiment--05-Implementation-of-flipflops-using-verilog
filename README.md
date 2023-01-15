@@ -120,6 +120,7 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 Developed by:Yogabharathi.S 
 RegisterNumber:22009015  
 */
+```
 SR FLIPFLOP:
 
 module sr(s,r,clk,Q,Qbar);
@@ -168,27 +169,26 @@ nand (B,T,Clock,Q);
 nand (Q,A,Qbar);
 nand (Qbar,B,Q);
 endmodule
-
+```
 ### RTL LOGIC FOR FLIP FLOPS
-SR FLIPFLOP:
+SR FLIP FLOP:
 ![SR](https://user-images.githubusercontent.com/118899387/212539650-b451205b-8753-4608-b590-0582110befa4.png)
-
-
-
-
-
-
-
-
+D FLIP FLOP:
+![DFLIP](https://user-images.githubusercontent.com/118899387/212540063-c6d7d84f-e9e8-4af9-a688-ace752369b4d.png)
+JK FLIP FLOP:
+![JK](https://user-images.githubusercontent.com/118899387/212540297-1adfc506-2599-4184-ac13-317575788146.png)
+T FLIP FLOP:
+![TFLIP](https://user-images.githubusercontent.com/118899387/212540419-de3267cf-ac05-419c-92e9-c0f6a219d7d8.png)
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
-
-
-
-
-
-
-
+SR FLIP FLOP:
+![SRTIMING](https://user-images.githubusercontent.com/118899387/212539899-5bd162ea-d251-4d59-9d1e-70418418a94a.png)
+D FLIP FLOP:
+![DTIMING](https://user-images.githubusercontent.com/118899387/212540082-2f626fa5-0c86-469a-bce9-5568786a8fe7.png)
+JK FLIP FLOP:
+![JKTIMING](https://user-images.githubusercontent.com/118899387/212540312-5dd8bb30-514c-4d67-b804-dda65680f47e.png)
+T FLIP FLOP:
+![TTIMING](https://user-images.githubusercontent.com/118899387/212540408-b5b0553e-6f52-44be-98ed-30ac924193fb.png)
 
 ### RESULTS 
 All the flipflops are implementde using verilog and their functionality has been validated using their functional tables.
